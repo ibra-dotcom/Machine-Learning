@@ -2,10 +2,15 @@ Tooling
 1. Install VS Code
 2. Install Git extension 
   On Mac => use 
-2.1 Download and install “Command Line Tools (CLT)
-2.2 nstall Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-      $PATH depends on chip model: M1 (/opt/bin) or Intel (/usr/local/bin)
-2.3 Install git: brew install git
+  2.1 Download and install “Command Line Tools (CLT)
+  2.2 nstall Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        $PATH depends on chip model: M1 (/opt/bin) or Intel (/usr/local/bin)
+        M1: 
+          -> Add Homebrew to your PATH in ~/.zprofile:
+          echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+          eval "$(/opt/homebrew/bin/brew shellenv)"
+  
+  2.3 Install git: brew install git
 3. Go back to VS Code 
 
 
