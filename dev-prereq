@@ -1,0 +1,7 @@
+Tooling 
+Install VS Code
+Install Git extension 
+  On Mac => use 
+    Download and install “Command Line Tools (CLT)
+    Install Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      $PATH depends on chip model: M1 (/opt/bin) or Intel (/usr/local/bin)
