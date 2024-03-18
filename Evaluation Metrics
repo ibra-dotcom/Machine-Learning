@@ -1,0 +1,6 @@
+Some evaluation methods used for ML model.
+Regression
+  Mean Absolute Error (MAE)
+  Mean Squared Error (MSE)
+  Root Mean Squared Error (RMSE)
+  Coefficient of determination (more commonly referred to as R2 or R-Squared)
