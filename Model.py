@@ -28,3 +28,6 @@ learning_rate = 0.1,
 max_depth = 30,
 min_samples_split = 4, min_samples_leaf = 6, max_features = 0.6, loss = 'huber'
 )
+model.fit(X_train, y_train
+#Evaluation
+mae_train = mean_absolute_error(y_train, model.predict(X_train)) print ("Training Set Mean Absolute Error: %.2f" % mae_train)
