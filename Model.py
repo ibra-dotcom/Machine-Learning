@@ -22,4 +22,9 @@ df = pd.get_dummies(df, columns = ['Suburb', 'CouncilArea', 'Type']
 X = df.drop('Price',axis=1) y = df['Price']
 
 #Split the Dataset
-
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, shuffle = True)
+model = ensemble.GradientBoostingRegressor( n_estimators = 150,
+learning_rate = 0.1,
+max_depth = 30,
+min_samples_split = 4, min_samples_leaf = 6, max_features = 0.6, loss = 'huber'
+)
