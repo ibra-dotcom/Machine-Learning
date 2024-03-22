@@ -31,3 +31,7 @@ min_samples_split = 4, min_samples_leaf = 6, max_features = 0.6, loss = 'huber'
 model.fit(X_train, y_train
 #Evaluation
 mae_train = mean_absolute_error(y_train, model.predict(X_train)) print ("Training Set Mean Absolute Error: %.2f" % mae_train)
+
+#Training Set Mean Absolute Error:
+mae_test = mean_absolute_error(y_test, model.predict(X_test))
+print ("Test Set Mean Absolute Error: %.2f" % mae_test)
