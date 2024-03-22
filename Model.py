@@ -36,5 +36,6 @@ mae_train = mean_absolute_error(y_train, model.predict(X_train)) print ("Trainin
 mae_test = mean_absolute_error(y_test, model.predict(X_test))
 print ("Test Set Mean Absolute Error: %.2f" % mae_test)
 
-Optimization:
-Training Set Mean Absolute Error: 135283.69
+# Optimization:
+#Training Set Mean Absolute Error: 
+#Test Set Mean Absolute Error: 
