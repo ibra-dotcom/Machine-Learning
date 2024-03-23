@@ -36,3 +36,5 @@ min_samples_leaf = 6,
 max_features = 0.6,
 loss = 'huber'
 )
+# Run model on training data
+model.fit(X_train, y_train)
