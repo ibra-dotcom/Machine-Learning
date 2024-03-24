@@ -1,6 +1,3 @@
-test)
-121
-Code for Grid Search Model
 # Import libraries, including GridSearchCV
 import pandas as pd
 from sklearn.model_selection import train_test_split
