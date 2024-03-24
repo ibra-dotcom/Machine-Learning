@@ -23,12 +23,15 @@ df = pd.get_dummies(df, columns = ['Suburb', 'CouncilArea', 'Type'])
 # Assign X and y variables
 X = df.drop('Price',axis=1)
 y = df['Price']
+
+
 # Split data into test/train set (70/30 split) and shuffle
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3,
 shuffle = True)
+
 # Input algorithm
 model = ensemble.GradientBoostingRegressor()
-122
+
 # Set the configurations that you wish to test. To minimize processing time,
 limit num. of variables or experiment on each hyperparameter separately.
 hyperparameters = {
@@ -40,12 +43,17 @@ hyperparameters = {
 'max_features': [0.8, 0.9],
 'loss': ['ls', 'lad', 'huber']
 }
+
+
 # Define grid search. Run with four CPUs in parallel if applicable.
 grid = GridSearchCV(model, hyperparameters, n_jobs = 4)
 # Run grid search on training data
 grid.fit(X_train, y_train)
 # Return optimal hyperparameters
 grid.best_params_
+
+
+
 # Check model accuracy using optimal hyperparameters
 mae_train = mean_absolute_error(y_train, grid.predict(X_train))
 print ("Training Set Mean Absolute Error: %.2f" % mae_train)
