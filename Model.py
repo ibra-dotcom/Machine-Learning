@@ -5,8 +5,7 @@ from sklearn import ensemble
 from sklearn.metrics import mean_absolute_error
 
 #Import dataset
-df = pd.read_csv('~/ML/Machine Learning/Melbourne_housing_FULL.csv')
-
+df = pd.read_csv('~/Melbourne_housing_FULL.csv')
 #Scrub dataset
 # The misspellings of “longitude” and “latitude” are preserved here del df['Address']
 del df['Method']
