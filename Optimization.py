@@ -40,7 +40,7 @@ loss = 'huber'
 model.fit(X_train, y_train)
 
 
-# Check model accuracy (up to two decimal places)
+# Vérification accuracy (up to two decimal places)
 mae_train = mean_absolute_error(y_train, model.predict(X_train))
 print ("Training Set Mean Absolute Error: %.2f" % mae_train)
 mae_test = mean_absolute_error(y_test, model.predict(X_test))
