@@ -29,6 +29,6 @@ plt.ylabel('y')
 plt.title('Linear Regression')
 plt.show()
 
-# Printing the coefficients
+# Printing the coefficients 
 print("Intercept:", model.intercept_)
 print("Coefficient:", model.coef_)
