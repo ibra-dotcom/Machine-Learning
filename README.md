@@ -1,3 +1,5 @@
+mainly Linear Regression 
+
 Design a full machine learning model (house price valuation system using gradient boosting):
     Import dataset
     Import libraries
