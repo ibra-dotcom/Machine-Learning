@@ -1,0 +1,21 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate example data (you can replace this with your own dataset)
+np.random.seed(2)
+x = np.random.normal(3, 1, 100)
+y = np.random.normal(150, 40, 100) / x
+
+# Split data into training (80%) and testing (20%) sets
+train_x = x[:80]
+train_y = y[:80]
+test_x = x[80:]
+test_y = y[80:]
+
+# Visualize the training set
+plt.scatter(train_x, train_y)
+plt.show()
+
+# Visualize the testing set
+plt.scatter(test_x, test_y)
+plt.show()
