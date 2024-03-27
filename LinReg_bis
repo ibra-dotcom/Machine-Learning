@@ -26,7 +26,7 @@ plt.scatter(test_x, test_y)
 plt.show()
 
 #2. Model Fitting:
-Once you have your training data, you can fit a model to it. Let’s use polynomial regression as an example:
+# Once you have your training data, you can fit a model to it. Let’s use polynomial regression as an example:
 # Fit a polynomial regression model
 mymodel = np.poly1d(np.polyfit(train_x, train_y, 4))
 myline = np.linspace(0, 6, 100)
