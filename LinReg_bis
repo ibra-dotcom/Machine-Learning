@@ -1,3 +1,6 @@
+# 1. Split outdataset into two subsets: a training set (used for model training) and a testing set (used for evaluating model accuracy)
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
