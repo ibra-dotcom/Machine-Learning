@@ -10,10 +10,10 @@ y = np.random.normal(150, 40, 100) / x
 
 # Split data into training (80%) and testing (20%) sets
 # train_x and train_y represent the training data, while test_x and test_y represent the testing data. 
-train_x = x[:80]
-train_y = y[:80]
-test_x = x[80:]
-test_y = y[80:]
+# train_x = x[:80]
+# train_y = y[:80]
+# test_x = x[80:]
+# test_y = y[80:]
 
 #The scatter plots show the distribution of data points in each set.
 # Visualize the training set
