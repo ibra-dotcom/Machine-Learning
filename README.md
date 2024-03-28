@@ -7,3 +7,7 @@ Design a full machine learning model (house price valuation system using gradien
     Split data into training and test data
     Select an algorithm and configure its hyperparameters
     Evaluate the results
+
+Courses taken:
+1. ML coursera
+2. ML Msft
