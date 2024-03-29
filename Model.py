@@ -8,7 +8,7 @@ from sklearn.metrics import mean_absolute_error
 df = pd.read_csv('~/Melbourne_housing_FULL.csv')
 #Scrub dataset
 # The misspellings of “longitude” and “latitude” are preserved here del df['Address']
-del df['Method']
+#del df['Method']
 del df['SellerG']
 del df['Date']
 del df['Postcode']
