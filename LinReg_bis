@@ -20,8 +20,8 @@ y = np.random.normal(150, 40, 100) / x
 
 #The scatter plots show the distribution of data points in each set.
 # Visualize the training set
-plt.scatter(train_x, train_y)
-plt.show()
+#plt.scatter(train_x, train_y)
+#plt.show()
 
 # Visualize the testing set
 plt.scatter(test_x, test_y)
