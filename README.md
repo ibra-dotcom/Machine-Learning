@@ -11,4 +11,6 @@ Design a full machine learning model (house price valuation system using gradien
 Courses taken:
 1. ML coursera
 2. ML Msft
-3. Pytorch 
+3. Pytorch
+4. Tensorflow
+5. LLM
