@@ -1,5 +1,12 @@
 Guidance to become ML engineer 
 1. Degree (not mandatory but important) or Certificate in a relevant field such us Computer science or math/statistic
+  1.1: Coursera Machine Learning
+       => Concept learned
+          Linear regression (determining a continous .........
+          Cost function (variation between the predicted and the actual value)
+          Gradient descent (minimize the error in the cost fucntion)
 2. Python, Python or C
 3. Gain Pratical Experience
 4. Build portfolio
+
+
