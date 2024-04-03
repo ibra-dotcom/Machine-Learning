@@ -5,7 +5,7 @@ from sklearn import ensemble
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import GridSearchCV
 # Read in data from CSV
-df = pd.read_csv('~/Melbourne_housing_FULL.csv')
+df = pd.read_csv('~Machine Learning/Melbourne_housing_FULL.csv')
 # Delete unneeded columns
 del df['Address']
 del df['Method']
