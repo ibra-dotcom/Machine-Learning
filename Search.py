@@ -26,8 +26,8 @@ y = df['Price']
 
 
 # Split data into test/train set (70/30 split) and shuffle
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3,
-#shuffle = True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3,
+shuffle = True)
 
 # Input algorithm
 model = ensemble.GradientBoostingRegressor()
