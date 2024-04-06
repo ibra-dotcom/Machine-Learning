@@ -16,3 +16,4 @@ Courses taken:
 3. Pytorch
 4. Tensorflow
 5. LLM
+6. Microsoft Azure AI Fundamentals - 
