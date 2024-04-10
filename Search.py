@@ -57,6 +57,6 @@ test
 
 # Check model accuracy using optimal hyperparameters
 mae_train = mean_absolute_error(y_train, grid.predict(X_train))
-print ("Training Set Mean Absolute Error: %.2f" % mae_train)
-mae_test = mean_absolute_error(y_test, grid.predict(X_test))
+#print ("Training Set Mean Absolute Error: %.2f" % mae_train)
+#mae_test = mean_absolute_error(y_test, grid.predict(X_test))
 print ("Test Set Mean Absolute Error: %.2f" % mae_test)
